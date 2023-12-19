@@ -2,7 +2,7 @@ import React from 'react'
 
 function Username() {
   return (
-    <div className='text-sm font-semibold'>Huzaifa</div>
+    <div className='text-sm font-semibold hidden'>Huzaifa</div>
   )
 }
 
