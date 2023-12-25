@@ -1,5 +1,3 @@
-
-
 /*
 function getPosition() {
   return new Promise(function (resolve, reject) {
@@ -25,20 +23,20 @@ async function fetchAddress() {
 
 */
 
-import { createSlice } from "@reduxjs/toolkit"
+import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
-  username: 'Huzaifa',
-}
+  username: "",
+};
 
 const userSlice = createSlice({
-  name: 'user',
+  name: "user",
   initialState,
   reducers: {
     updateName(state, action) {
       state.username = action.payload;
-    }
-  }
+    },
+  },
 });
 
 export const { updateName } = userSlice.actions;
