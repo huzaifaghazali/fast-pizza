@@ -54,6 +54,9 @@ export const {
 export default cartSlice.reducer;
 
 // ***** Selector Functions ***** //
+
+export const getCart = (state) => state.cart.cart;
+
 // Calculate the Number of items in the cart
 export const getTotalCartQuantity = (state) =>
   state.cart.cart.reduce((sum, item) => sum + item.quantity, 0);
