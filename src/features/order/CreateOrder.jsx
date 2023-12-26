@@ -19,7 +19,7 @@ const isValidPhone = (str) =>
 function CreateOrder() {
   const dispatch = useDispatch();
   const {
-    userName,
+    username,
     status: addressStatus,
     position,
     address,
@@ -36,7 +36,9 @@ function CreateOrder() {
   const priorityPrice = withPriority ? totalCartPrice * 0.2 : 0;
   const totalPrice = totalCartPrice + priorityPrice;
 
+
   if (!cart.length) return <EmptyCart />;
+
 
   return (
     <div className="px-4 py-6">
@@ -50,7 +52,7 @@ function CreateOrder() {
             className="input grow"
             type="text"
             name="customer"
-            defaultValue={userName}
+            defaultValue={username}
             required
           />
         </div>
