@@ -3,6 +3,29 @@
 Fast Pizza is a simple React and Redux-based web application for ordering pizzas online. It is designed to be straightforward, requiring no user accounts or logins. Users can quickly input their names, select pizzas from a dynamic menu loaded from an API, add items to a cart, and place orders with additional options such as priority marking.
 
 ## Pictures
+1.
+
+   ![pizza1](https://github.com/huzaifaghazali/fast-pizza/assets/63412385/63fe2ffa-1fed-41fd-b90f-6b8b60944349)
+
+2. 
+
+   ![pizza2](https://github.com/huzaifaghazali/fast-pizza/assets/63412385/d7d6bf91-7d16-406e-81c3-b0374140a477)
+
+3.
+
+   ![pizza3](https://github.com/huzaifaghazali/fast-pizza/assets/63412385/98aa09e9-49bc-4e65-8c01-e27f3f491e95)
+
+4. 
+
+   ![pizza4](https://github.com/huzaifaghazali/fast-pizza/assets/63412385/f8c2fdfb-49f2-43b8-b4ee-a1e9b935f8df)
+
+5.
+
+  ![pizza5](https://github.com/huzaifaghazali/fast-pizza/assets/63412385/312bcd44-a5c2-40f3-bdd4-a43960cd9587)
+
+6. 
+
+   ![pizza6](https://github.com/huzaifaghazali/fast-pizza/assets/63412385/81683559-82c2-4a67-99b6-4c8540c1f125)
 
 ## Features
 
